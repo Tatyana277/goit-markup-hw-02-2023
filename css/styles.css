@@ -1,0 +1,71 @@
+:root {
+    --primary-font-family: "Roboto", sans-serif;
+    --secondary-font-family: "Raleway", sans-serif;
+    --primary-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --tertiary-text-color: #F4F4FD;
+    --color-logo-web: #4D5AE5;
+    --color-logo-header: #2E2F42;
+    --color-logo-footer: #F4F4FD;
+    --accent-color: #404BBF;
+    --background-accent: #404BBF;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+  font-family: var(--primary-font-family);
+  color: var(--primary-text-color);
+}
+.logo {
+    font-family: var(--secondary-font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+}
+
+.logo-title {
+    color: var( --color-logo-web);
+}
+
+.logo-title-header {
+    color: var(--color-logo-header);
+}
+
+.logo-title-footer {
+    color: var(--color-logo-footer);
+}
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primary-text-color);
+}
+
+.page-nav .current {
+    color: var(--accent-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent-color);
+}
+
+.nav-contact {
+    /* font-family: Roboto; */
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--secondary-text-color);
+}
+
+.nav-contact:hover,
+.nav-contact:focus {
+    color: var(--accent-color);
+}
