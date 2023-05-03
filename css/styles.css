@@ -1,6 +1,7 @@
 :root {
     --primary-font-family: "Roboto", sans-serif;
     --secondary-font-family: "Raleway", sans-serif;
+    --main-title-text: #FFFFFF;
     --primary-text-color: #2E2F42;
     --secondary-text-color: #434455;
     --tertiary-text-color: #F4F4FD;
@@ -9,6 +10,11 @@
     --color-logo-footer: #F4F4FD;
     --accent-color: #404BBF;
     --background-accent: #404BBF;
+    --background-btn: #4D5AE5;
+    --background-primary: #FFFFFF;
+    --background-secondary: #2E2F42;
+    --background-tertiary:#F4F4FD;
+    --color-text-btn: #4D5AE5;
 }
 
 .list {
@@ -58,7 +64,6 @@ body {
 }
 
 .nav-contact {
-    /* font-family: Roboto; */
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -68,4 +73,72 @@ body {
 .nav-contact:hover,
 .nav-contact:focus {
     color: var(--accent-color);
+}
+.section-hero {
+    background-color: var(--background-secondary);
+}
+.main-title {
+    color: var(--main-title-text);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+}
+.btn-order-service {
+    width: 169.12px;
+    height: 56px;
+    left: 656.45px;
+    top: 428px;
+    background: var(--background-btn);
+    color: var(--main-title-text);
+}
+.btn-order-service:hover,
+.btn-order-service:focus {
+    background-color: var(--background-accent);
+}
+
+.title-section {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        color: var(--primary-text-color);
+}
+.description-title
+.name-member-team {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--primary-text-color);
+}
+.description-text
+.position-member-team {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--secondary-text-color);
+}
+.section-our-team {
+    background-color: var(--background-tertiary);
+}
+.page-footer {
+    background-color: var(--background-secondary);
+}
+.page-footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--tertiary-text-color);
+}
+
+.btn-filter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--color-text-btn);
+    background-color: var(--background-tertiary);
+}
+.btn-filter:hover,
+.btn-filter:focus,
+.btn-filter:active {
+    background-color: var(--background-accent);
+    color: var(--main-title-text);
 }
